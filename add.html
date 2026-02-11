@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Notes - Simple Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Simple-Notes App</h1>
+
+<div class="topbar">
+  <span id="welcome"></span>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<div class="card big">
+
+<h3>My Notes</h3>
+
+<textarea id="noteInput" placeholder="Write full notes here..."></textarea>
+
+<div class="btnRow">
+  <button onclick="saveNote()">Save</button>
+  <button onclick="clearNote()">Clear</button>
+  <button onclick="goView()">View Notes</button>
+</div>
+
+</div>
+
+<script src="add.js"></script>
+</body>
+</html>
